@@ -4,7 +4,7 @@
 
 VERSION=2016
 IDENTIFIER=your.org.mathematica-license
-PKGNAME=Your-Org-Mathemtica-license-$VERSION.pkg
+PKGNAME=Your-Org-Mathematica-license-$VERSION.pkg
 
 # Stop editing
 
