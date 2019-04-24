@@ -1,0 +1,20 @@
+#!/bin/bash
+
+ACTIVATION_XML="/Library/Management/NVivo12/nvivo-activation.xml"
+INSTALL_LOCATION="/Library/Management/NVivo12"
+LICENSE_KEY="Your-license-key"
+NVIVO="/Applications/NVivo 12.app/Contents/MacOS/NVivo 12"
+
+# Initialize license
+echo "NVivo 12 license install - attempting to initialize license."
+"${NVIVO}" -initialize "${LICENSE_KEY}"
+
+# Activate application
+echo "NVivo 12 license install - attempting to activate application."
+"${NVIVO}" -activate "${ACTIVATION_XML}"
+
+# Remove activation xml
+echo "NVivo 12 license install - removing installed files."
+/bin/rm -rf "${INSTALL_LOCATION}"
+
+exit 0

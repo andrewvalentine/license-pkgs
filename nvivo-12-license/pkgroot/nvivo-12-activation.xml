@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Activation>
+  <Request>
+    <FirstName>IT</FirstName>
+    <LastName>Department</LastName>
+    <Email>it-department@your.org</Email>
+	<Sector>Your Section</Sector>
+	<Industry>Your Industry</Industry>
+	<JobRole>Your Role</JobRole>
+	<JobTitle>Your Title</JobTitle>
+    <Phone>Your Number</Phone>
+    <Organization>Your Org</Organization>
+    <Country>Your Country</Country>
+  </Request>
+</Activation>
