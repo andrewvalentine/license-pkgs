@@ -2,6 +2,14 @@
 
 The contents of this directory will allow you to build a pkg to install a license for NVivo 12.
 
+Adapted from QSR documentation available at:
+
+http://techcenter.qsrinternational.com/desktop/nm12/nm12_mass_deployment.htm
+
+If you need to manage the settings for NVivo 12 in your organization, you may consider using the following Configuration Profile:
+
+https://github.com/andrewvalentine/profiles/blob/master/NVivo12-disable-autoupdates.mobileconfig
+
 ## Usage
 
 * Edit the template files
